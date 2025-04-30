@@ -4,6 +4,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface UserApi_interface {
-    @GET("/users")
+    @GET("/")
     Call<User_data> get_User_data();
 }
